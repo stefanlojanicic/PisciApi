@@ -1,4 +1,5 @@
 ﻿using ApiModels.Configuration;
+using Db.MainDatabase;
 using Microsoft.EntityFrameworkCore;
 
 namespace PisciApi
@@ -19,6 +20,7 @@ namespace PisciApi
             services.AddSwaggerGen();
             services.Configure<MyAppSettings>(Configuration);
             var connectionString = Configuration["ConnectionString"];
+            services.AddDbContext<PisciContext>(options => options.UseSqlServer(connectionString));
         }
         public void Configure(WebApplication app, IWebHostEnvironment env)
         {
