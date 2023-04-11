@@ -14,10 +14,10 @@ namespace ApiRepositories
         private readonly PisciContext _pisacContext;
         private readonly IMapper _mapper;
 
-        public PisacRepository(IOptions<MyAppSettings> options, PisciContext geolocationContext, IMapper mapper)
+        public PisacRepository(IOptions<MyAppSettings> options, PisciContext pisacContext, IMapper mapper)
         {
             _myAppSettings = options.Value;
-            _pisacContext = geolocationContext;
+            _pisacContext = pisacContext;
             _mapper = mapper;
         }
 
@@ -30,21 +30,54 @@ namespace ApiRepositories
                 GodinaRodjenja = inputModel.GodinaRodjenja,
                 Domaci = inputModel.Domaci
             };
-            _pisacContext.Add(newItem);
+            _pisacContext.Piscis.Add(newItem);
             await _pisacContext.SaveChangesAsync();
             return newItem.Id;
         }
 
         public async Task DeleteItemAsync(int id)
         {
-            var dbEntity = _pisacContext.Piscis.FirstOrDefaultAsync(x => x.Id == id);
-            _pisacContext.Remove(dbEntity);
+            var dbEntity = await _pisacContext.Piscis.FirstOrDefaultAsync(x => x.Id == id);
+            _pisacContext.Piscis.Remove(dbEntity);
             await _pisacContext.SaveChangesAsync();
         }
 
-        public async Task UpdateItemAsync(int id, PisacDto updatedModel)
+        public Task<List<PisacDto>> GetItemsFilterSort(PisciSearchModel searchModel)
         {
-            var dbEntity = await _pisacContext.Piscis.SingleOrDefaultAsync(x => x.Id == id);
+            var query = from p in _pisacContext.Piscis
+                        select new PisacDto
+                        {
+                            Id = p.Id,
+                            Ime = p.Ime,
+                            DrzavaRodjenja = p.Drzava,
+                            GodinaRodjenja = p.GodinaRodjenja,
+                            Domaci  = p.Domaci
+                        };
+            if (searchModel.GodinaRodjenja != null)
+            {
+                query = query.Where(x => x.GodinaRodjenja == searchModel.GodinaRodjenja);
+            }
+            if (searchModel.Domaci != null) {
+                query = query.Where(x => x.Domaci == searchModel.Domaci);
+            }
+            if(searchModel.FieldName == "GodinaRodjenja") { 
+                if (searchModel.IsAscending.HasValue) {
+                    if (searchModel.IsAscending.Value)
+                    {
+                        query = query.OrderBy(x => x.GodinaRodjenja);
+                    }
+                    else 
+                    {
+                        query = query.OrderByDescending(x => x.GodinaRodjenja);
+                    }
+                }
+            }
+
+        }
+
+        public async Task UpdateItemAsync(PisacDto updatedModel)
+        {
+            var dbEntity = await _pisacContext.Piscis.SingleOrDefaultAsync(x => x.Id == updatedModel.Id);
             dbEntity.Ime = updatedModel.Ime;
             dbEntity.GodinaRodjenja = updatedModel.GodinaRodjenja;
             dbEntity.Drzava = updatedModel.DrzavaRodjenja;
@@ -54,7 +87,8 @@ namespace ApiRepositories
 
         async Task<List<PisacDto>> IPisacRepository.GetAllItemsAsync()
         {
-            var pisacEntity = await _pisacContext.Piscis.ToListAsync();
+            var pisacEntity = _pisacContext.Piscis;
+            var pisacEntity2 = await pisacEntity.ToListAsync();
             var result = _mapper.Map<List<PisacDto>>(pisacEntity);
             return result;
         }

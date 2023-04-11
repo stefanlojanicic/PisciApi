@@ -19,6 +19,7 @@
   <ItemGroup>
     <ProjectReference Include="..\ApiModels\ApiModels.csproj" />
     <ProjectReference Include="..\Db\Db.csproj" />
+    <ProjectReference Include="..\PisciApi.Ioc\PisciApi.Ioc.csproj" />
   </ItemGroup>
 
 </Project>

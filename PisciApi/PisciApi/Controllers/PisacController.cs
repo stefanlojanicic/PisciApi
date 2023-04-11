@@ -17,7 +17,8 @@ namespace PisciApi.Controllers
         }
 
         [HttpGet]
-        public async Task<ResponseModel<List<PisacDto>>> GetAllItemsAsync() {
+        public async Task<ResponseModel<List<PisacDto>>> GetAllItemsAsync() 
+        {
             var result = await _pisacManager.GetAllItemsAsync();
             return result;
         }
@@ -28,9 +29,9 @@ namespace PisciApi.Controllers
             return result;
         }
 
-        [HttpPut("{id}")]
-        public async Task UpdateItemAsync(int id, PisacDto updatedModel) {
-            await _pisacManager.UpdateItemAsync(id, updatedModel);
+        [HttpPut]
+        public async Task UpdateItemAsync(PisacDto updatedModel) {
+            await _pisacManager.UpdateItemAsync(updatedModel);
         }
 
         [HttpDelete("{id}")]

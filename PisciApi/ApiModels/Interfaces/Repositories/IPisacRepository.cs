@@ -10,8 +10,10 @@ namespace ApiModels.Interfaces.Repositories
 
         Task<int> CreateItemAsync(PisacDto inputModel);
 
-        Task UpdateItemAsync(int id, PisacDto updatedModel);
+        Task UpdateItemAsync(PisacDto updatedModel);
 
         Task DeleteItemAsync(int id);
+
+        Task<List<PisacDto>> GetItemsFilterSort(PisciSearchModel searchModel);
     }
 }

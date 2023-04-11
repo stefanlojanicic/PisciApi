@@ -1,6 +1,7 @@
 ﻿using ApiModels.Configuration;
 using Db.MainDatabase;
 using Microsoft.EntityFrameworkCore;
+using PisciApi.Ioc;
 
 namespace PisciApi
 {
@@ -21,6 +22,8 @@ namespace PisciApi
             services.Configure<MyAppSettings>(Configuration);
             var connectionString = Configuration["ConnectionString"];
             services.AddDbContext<PisciContext>(options => options.UseSqlServer(connectionString));
+            AppMappings.MapDependencies(services);
+            services.AddAutoMapper(typeof(MappingsProfile));
         }
         public void Configure(WebApplication app, IWebHostEnvironment env)
         {
@@ -34,7 +37,6 @@ namespace PisciApi
             app.UseRouting();
             app.UseAuthorization();
             app.MapRazorPages();
-            app.Run();
             app.MapControllers();
             app.Run();
 

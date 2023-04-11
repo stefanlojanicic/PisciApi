@@ -4,6 +4,78 @@
     "C:\\Users\\stefa\\source\\repos\\stefanlojanicic\\PisciApi\\PisciApi\\PisciApi\\PisciApi.csproj": {}
   },
   "projects": {
+    "C:\\Users\\stefa\\source\\repos\\stefanlojanicic\\PisciApi\\PisciApi\\ApiManagers\\ApiManagers.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\stefa\\source\\repos\\stefanlojanicic\\PisciApi\\PisciApi\\ApiManagers\\ApiManagers.csproj",
+        "projectName": "ApiManagers",
+        "projectPath": "C:\\Users\\stefa\\source\\repos\\stefanlojanicic\\PisciApi\\PisciApi\\ApiManagers\\ApiManagers.csproj",
+        "packagesPath": "C:\\Users\\stefa\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\stefa\\source\\repos\\stefanlojanicic\\PisciApi\\PisciApi\\ApiManagers\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\stefa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\stefa\\source\\repos\\stefanlojanicic\\PisciApi\\PisciApi\\ApiModels\\ApiModels.csproj": {
+                "projectPath": "C:\\Users\\stefa\\source\\repos\\stefanlojanicic\\PisciApi\\PisciApi\\ApiModels\\ApiModels.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Users\\stefa\\source\\repos\\stefanlojanicic\\PisciApi\\PisciApi\\ApiModels\\ApiModels.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -42,6 +114,85 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\stefa\\source\\repos\\stefanlojanicic\\PisciApi\\PisciApi\\ApiRepositories\\ApiRepositories.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\stefa\\source\\repos\\stefanlojanicic\\PisciApi\\PisciApi\\ApiRepositories\\ApiRepositories.csproj",
+        "projectName": "ApiRepositories",
+        "projectPath": "C:\\Users\\stefa\\source\\repos\\stefanlojanicic\\PisciApi\\PisciApi\\ApiRepositories\\ApiRepositories.csproj",
+        "packagesPath": "C:\\Users\\stefa\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\stefa\\source\\repos\\stefanlojanicic\\PisciApi\\PisciApi\\ApiRepositories\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\stefa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\stefa\\source\\repos\\stefanlojanicic\\PisciApi\\PisciApi\\ApiModels\\ApiModels.csproj": {
+                "projectPath": "C:\\Users\\stefa\\source\\repos\\stefanlojanicic\\PisciApi\\PisciApi\\ApiModels\\ApiModels.csproj"
+              },
+              "C:\\Users\\stefa\\source\\repos\\stefanlojanicic\\PisciApi\\PisciApi\\Db\\Db.csproj": {
+                "projectPath": "C:\\Users\\stefa\\source\\repos\\stefanlojanicic\\PisciApi\\PisciApi\\Db\\Db.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -142,6 +293,83 @@
         }
       }
     },
+    "C:\\Users\\stefa\\source\\repos\\stefanlojanicic\\PisciApi\\PisciApi\\PisciApi.Ioc\\PisciApi.Ioc.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\stefa\\source\\repos\\stefanlojanicic\\PisciApi\\PisciApi\\PisciApi.Ioc\\PisciApi.Ioc.csproj",
+        "projectName": "PisciApi.Ioc",
+        "projectPath": "C:\\Users\\stefa\\source\\repos\\stefanlojanicic\\PisciApi\\PisciApi\\PisciApi.Ioc\\PisciApi.Ioc.csproj",
+        "packagesPath": "C:\\Users\\stefa\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\stefa\\source\\repos\\stefanlojanicic\\PisciApi\\PisciApi\\PisciApi.Ioc\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\stefa\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\stefa\\source\\repos\\stefanlojanicic\\PisciApi\\PisciApi\\ApiManagers\\ApiManagers.csproj": {
+                "projectPath": "C:\\Users\\stefa\\source\\repos\\stefanlojanicic\\PisciApi\\PisciApi\\ApiManagers\\ApiManagers.csproj"
+              },
+              "C:\\Users\\stefa\\source\\repos\\stefanlojanicic\\PisciApi\\PisciApi\\ApiModels\\ApiModels.csproj": {
+                "projectPath": "C:\\Users\\stefa\\source\\repos\\stefanlojanicic\\PisciApi\\PisciApi\\ApiModels\\ApiModels.csproj"
+              },
+              "C:\\Users\\stefa\\source\\repos\\stefanlojanicic\\PisciApi\\PisciApi\\ApiRepositories\\ApiRepositories.csproj": {
+                "projectPath": "C:\\Users\\stefa\\source\\repos\\stefanlojanicic\\PisciApi\\PisciApi\\ApiRepositories\\ApiRepositories.csproj"
+              },
+              "C:\\Users\\stefa\\source\\repos\\stefanlojanicic\\PisciApi\\PisciApi\\Db\\Db.csproj": {
+                "projectPath": "C:\\Users\\stefa\\source\\repos\\stefanlojanicic\\PisciApi\\PisciApi\\Db\\Db.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Users\\stefa\\source\\repos\\stefanlojanicic\\PisciApi\\PisciApi\\PisciApi\\PisciApi.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -174,6 +402,9 @@
               },
               "C:\\Users\\stefa\\source\\repos\\stefanlojanicic\\PisciApi\\PisciApi\\Db\\Db.csproj": {
                 "projectPath": "C:\\Users\\stefa\\source\\repos\\stefanlojanicic\\PisciApi\\PisciApi\\Db\\Db.csproj"
+              },
+              "C:\\Users\\stefa\\source\\repos\\stefanlojanicic\\PisciApi\\PisciApi\\PisciApi.Ioc\\PisciApi.Ioc.csproj": {
+                "projectPath": "C:\\Users\\stefa\\source\\repos\\stefanlojanicic\\PisciApi\\PisciApi\\PisciApi.Ioc\\PisciApi.Ioc.csproj"
               }
             }
           }

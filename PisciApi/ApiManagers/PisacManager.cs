@@ -68,7 +68,7 @@ namespace ApiManagers
             var result = new ResponseModel<PisacDto>();
             try
             {
-                await _pisacRepository.GetItemByIdAsync(id);
+                result.Payload = await _pisacRepository.GetItemByIdAsync(id);       
             }
             catch (Exception ex)
             {
@@ -78,11 +78,11 @@ namespace ApiManagers
             return result;
         }
 
-        public async Task UpdateItemAsync(int id, PisacDto updatedModel)
+        public async Task UpdateItemAsync(PisacDto updatedModel)
         {
             try
             {
-                await _pisacRepository.UpdateItemAsync(id, updatedModel);
+                await _pisacRepository.UpdateItemAsync(updatedModel);
             }
             catch (Exception ex)
             {

@@ -14,7 +14,7 @@ namespace ApiModels.Interfaces.Managers
 
         Task<ResponseModel<PisacDto>> GetItemByIdAsync(int id);
 
-        Task UpdateItemAsync(int id, PisacDto updatedModel);
+        Task UpdateItemAsync(PisacDto updatedModel);
 
         Task DeleteItemAsync(int id);
 
