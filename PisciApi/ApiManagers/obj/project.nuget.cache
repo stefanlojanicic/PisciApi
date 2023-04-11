@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "3CiMh7+yA2Q5MUftdi3jQkh83XpTPP2bkp37dyv9zsiH1MudCK+mP68u4xyRsAwbdYMN96aI+eeTg7X9qokaJw==",
+  "dgSpecHash": "t/3w9HibuO6s+TmQslH6lMiF4im2IQtbS63jeiqUmPK8u7NZ5lqLHosw4HrEzdTGXtYiqQnCRriLphYgB7lfWw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\stefa\\source\\repos\\PisciApi\\ApiManagers\\ApiManagers.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\stefa\\source\\repos\\stefanlojanicic\\PisciApi\\PisciApi\\ApiManagers\\ApiManagers.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\stefa\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.0\\microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\stefa\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
   "logs": []
 }

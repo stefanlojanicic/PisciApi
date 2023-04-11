@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4yN6Loou0kw/SGt64uRI+etBdEfi8BsZuPH2aMmoi2u3ar7PKvj14KiQiu4NNUOVWl1aF9jhjwBtVDV3YlxDyA==",
+  "dgSpecHash": "Xb0zRXw0p3Bo9xHVKQYZjvMHitcRD1R4Kh0UQ2l+cRmIsfMMcp8QQ5uul+TNyFnZOUfeuAt4eCi2eRV7STOEPA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\stefa\\source\\repos\\PisciApi\\ApiModels\\ApiModels.csproj",
+  "projectFilePath": "C:\\Users\\stefa\\source\\repos\\stefanlojanicic\\PisciApi\\PisciApi\\ApiModels\\ApiModels.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

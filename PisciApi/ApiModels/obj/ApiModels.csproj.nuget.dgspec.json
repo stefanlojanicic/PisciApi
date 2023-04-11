@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\stefa\\source\\repos\\PisciApi\\ApiModels\\ApiModels.csproj": {}
+    "C:\\Users\\stefa\\source\\repos\\stefanlojanicic\\PisciApi\\PisciApi\\ApiModels\\ApiModels.csproj": {}
   },
   "projects": {
-    "C:\\Users\\stefa\\source\\repos\\PisciApi\\ApiModels\\ApiModels.csproj": {
+    "C:\\Users\\stefa\\source\\repos\\stefanlojanicic\\PisciApi\\PisciApi\\ApiModels\\ApiModels.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\stefa\\source\\repos\\PisciApi\\ApiModels\\ApiModels.csproj",
+        "projectUniqueName": "C:\\Users\\stefa\\source\\repos\\stefanlojanicic\\PisciApi\\PisciApi\\ApiModels\\ApiModels.csproj",
         "projectName": "ApiModels",
-        "projectPath": "C:\\Users\\stefa\\source\\repos\\PisciApi\\ApiModels\\ApiModels.csproj",
+        "projectPath": "C:\\Users\\stefa\\source\\repos\\stefanlojanicic\\PisciApi\\PisciApi\\ApiModels\\ApiModels.csproj",
         "packagesPath": "C:\\Users\\stefa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\stefa\\source\\repos\\PisciApi\\ApiModels\\obj\\",
+        "outputPath": "C:\\Users\\stefa\\source\\repos\\stefanlojanicic\\PisciApi\\PisciApi\\ApiModels\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

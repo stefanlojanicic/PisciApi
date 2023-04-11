@@ -3,13 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PisciApi", "PisciApi\PisciApi.csproj", "{82E0CEDB-B9F2-4AC0-B91A-4825DE7F27B7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PisciApi", "PisciApi\PisciApi.csproj", "{82E0CEDB-B9F2-4AC0-B91A-4825DE7F27B7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiManagers", "ApiManagers\ApiManagers.csproj", "{E72D6264-E00F-46D9-AE6C-FF9E97DE9439}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiManagers", "ApiManagers\ApiManagers.csproj", "{E72D6264-E00F-46D9-AE6C-FF9E97DE9439}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiModels", "ApiModels\ApiModels.csproj", "{FEC60DEC-D7F7-4A94-A729-1BF9B1363C8A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiModels", "ApiModels\ApiModels.csproj", "{FEC60DEC-D7F7-4A94-A729-1BF9B1363C8A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApiRepositories", "ApiRepositories\ApiRepositories.csproj", "{4B0CBE51-6F24-44E5-A971-E3A541A12635}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApiRepositories", "ApiRepositories\ApiRepositories.csproj", "{4B0CBE51-6F24-44E5-A971-E3A541A12635}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Db", "Db\Db.csproj", "{D7076EB2-8CAC-4710-B457-7F4ACEF61FA6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PisciApi.Ioc", "PisciApi.Ioc\PisciApi.Ioc.csproj", "{F2C8736F-5C24-4296-9DE4-B8A9332589B4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,14 @@ Global
 		{4B0CBE51-6F24-44E5-A971-E3A541A12635}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4B0CBE51-6F24-44E5-A971-E3A541A12635}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4B0CBE51-6F24-44E5-A971-E3A541A12635}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7076EB2-8CAC-4710-B457-7F4ACEF61FA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7076EB2-8CAC-4710-B457-7F4ACEF61FA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7076EB2-8CAC-4710-B457-7F4ACEF61FA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7076EB2-8CAC-4710-B457-7F4ACEF61FA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2C8736F-5C24-4296-9DE4-B8A9332589B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2C8736F-5C24-4296-9DE4-B8A9332589B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2C8736F-5C24-4296-9DE4-B8A9332589B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2C8736F-5C24-4296-9DE4-B8A9332589B4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,15 @@
+C:\Users\stefa\source\repos\stefanlojanicic\PisciApi\PisciApi\ApiManagers\bin\Debug\net6.0\ApiManagers.deps.json
+C:\Users\stefa\source\repos\stefanlojanicic\PisciApi\PisciApi\ApiManagers\bin\Debug\net6.0\ApiManagers.dll
+C:\Users\stefa\source\repos\stefanlojanicic\PisciApi\PisciApi\ApiManagers\bin\Debug\net6.0\ApiManagers.pdb
+C:\Users\stefa\source\repos\stefanlojanicic\PisciApi\PisciApi\ApiManagers\obj\Debug\net6.0\ApiManagers.csproj.AssemblyReference.cache
+C:\Users\stefa\source\repos\stefanlojanicic\PisciApi\PisciApi\ApiManagers\obj\Debug\net6.0\ApiManagers.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\stefa\source\repos\stefanlojanicic\PisciApi\PisciApi\ApiManagers\obj\Debug\net6.0\ApiManagers.AssemblyInfoInputs.cache
+C:\Users\stefa\source\repos\stefanlojanicic\PisciApi\PisciApi\ApiManagers\obj\Debug\net6.0\ApiManagers.AssemblyInfo.cs
+C:\Users\stefa\source\repos\stefanlojanicic\PisciApi\PisciApi\ApiManagers\obj\Debug\net6.0\ApiManagers.csproj.CoreCompileInputs.cache
+C:\Users\stefa\source\repos\stefanlojanicic\PisciApi\PisciApi\ApiManagers\obj\Debug\net6.0\ApiManagers.dll
+C:\Users\stefa\source\repos\stefanlojanicic\PisciApi\PisciApi\ApiManagers\obj\Debug\net6.0\refint\ApiManagers.dll
+C:\Users\stefa\source\repos\stefanlojanicic\PisciApi\PisciApi\ApiManagers\obj\Debug\net6.0\ApiManagers.pdb
+C:\Users\stefa\source\repos\stefanlojanicic\PisciApi\PisciApi\ApiManagers\obj\Debug\net6.0\ref\ApiManagers.dll
+C:\Users\stefa\source\repos\stefanlojanicic\PisciApi\PisciApi\ApiManagers\bin\Debug\net6.0\ApiModels.dll
+C:\Users\stefa\source\repos\stefanlojanicic\PisciApi\PisciApi\ApiManagers\bin\Debug\net6.0\ApiModels.pdb
+C:\Users\stefa\source\repos\stefanlojanicic\PisciApi\PisciApi\ApiManagers\obj\Debug\net6.0\ApiManagers.csproj.CopyComplete

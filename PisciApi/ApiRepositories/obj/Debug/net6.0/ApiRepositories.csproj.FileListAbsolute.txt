@@ -1,0 +1,17 @@
+C:\Users\stefa\source\repos\stefanlojanicic\PisciApi\PisciApi\ApiRepositories\bin\Debug\net6.0\ApiRepositories.deps.json
+C:\Users\stefa\source\repos\stefanlojanicic\PisciApi\PisciApi\ApiRepositories\bin\Debug\net6.0\ApiRepositories.dll
+C:\Users\stefa\source\repos\stefanlojanicic\PisciApi\PisciApi\ApiRepositories\bin\Debug\net6.0\ApiRepositories.pdb
+C:\Users\stefa\source\repos\stefanlojanicic\PisciApi\PisciApi\ApiRepositories\obj\Debug\net6.0\ApiRepositories.csproj.AssemblyReference.cache
+C:\Users\stefa\source\repos\stefanlojanicic\PisciApi\PisciApi\ApiRepositories\obj\Debug\net6.0\ApiRepositories.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\stefa\source\repos\stefanlojanicic\PisciApi\PisciApi\ApiRepositories\obj\Debug\net6.0\ApiRepositories.AssemblyInfoInputs.cache
+C:\Users\stefa\source\repos\stefanlojanicic\PisciApi\PisciApi\ApiRepositories\obj\Debug\net6.0\ApiRepositories.AssemblyInfo.cs
+C:\Users\stefa\source\repos\stefanlojanicic\PisciApi\PisciApi\ApiRepositories\obj\Debug\net6.0\ApiRepositories.csproj.CoreCompileInputs.cache
+C:\Users\stefa\source\repos\stefanlojanicic\PisciApi\PisciApi\ApiRepositories\obj\Debug\net6.0\ApiRepositories.dll
+C:\Users\stefa\source\repos\stefanlojanicic\PisciApi\PisciApi\ApiRepositories\obj\Debug\net6.0\refint\ApiRepositories.dll
+C:\Users\stefa\source\repos\stefanlojanicic\PisciApi\PisciApi\ApiRepositories\obj\Debug\net6.0\ApiRepositories.pdb
+C:\Users\stefa\source\repos\stefanlojanicic\PisciApi\PisciApi\ApiRepositories\obj\Debug\net6.0\ref\ApiRepositories.dll
+C:\Users\stefa\source\repos\stefanlojanicic\PisciApi\PisciApi\ApiRepositories\bin\Debug\net6.0\ApiModels.dll
+C:\Users\stefa\source\repos\stefanlojanicic\PisciApi\PisciApi\ApiRepositories\bin\Debug\net6.0\Db.dll
+C:\Users\stefa\source\repos\stefanlojanicic\PisciApi\PisciApi\ApiRepositories\bin\Debug\net6.0\ApiModels.pdb
+C:\Users\stefa\source\repos\stefanlojanicic\PisciApi\PisciApi\ApiRepositories\bin\Debug\net6.0\Db.pdb
+C:\Users\stefa\source\repos\stefanlojanicic\PisciApi\PisciApi\ApiRepositories\obj\Debug\net6.0\ApiRepositories.csproj.CopyComplete

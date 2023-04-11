@@ -1,0 +1,14 @@
+C:\Users\stefa\source\repos\stefanlojanicic\PisciApi\PisciApi\Db\bin\Debug\net6.0\Db.deps.json
+C:\Users\stefa\source\repos\stefanlojanicic\PisciApi\PisciApi\Db\bin\Debug\net6.0\Db.runtimeconfig.json
+C:\Users\stefa\source\repos\stefanlojanicic\PisciApi\PisciApi\Db\bin\Debug\net6.0\Db.dll
+C:\Users\stefa\source\repos\stefanlojanicic\PisciApi\PisciApi\Db\bin\Debug\net6.0\Db.pdb
+C:\Users\stefa\source\repos\stefanlojanicic\PisciApi\PisciApi\Db\obj\Debug\net6.0\Db.csproj.AssemblyReference.cache
+C:\Users\stefa\source\repos\stefanlojanicic\PisciApi\PisciApi\Db\obj\Debug\net6.0\Db.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\stefa\source\repos\stefanlojanicic\PisciApi\PisciApi\Db\obj\Debug\net6.0\Db.AssemblyInfoInputs.cache
+C:\Users\stefa\source\repos\stefanlojanicic\PisciApi\PisciApi\Db\obj\Debug\net6.0\Db.AssemblyInfo.cs
+C:\Users\stefa\source\repos\stefanlojanicic\PisciApi\PisciApi\Db\obj\Debug\net6.0\Db.csproj.CoreCompileInputs.cache
+C:\Users\stefa\source\repos\stefanlojanicic\PisciApi\PisciApi\Db\obj\Debug\net6.0\Db.dll
+C:\Users\stefa\source\repos\stefanlojanicic\PisciApi\PisciApi\Db\obj\Debug\net6.0\refint\Db.dll
+C:\Users\stefa\source\repos\stefanlojanicic\PisciApi\PisciApi\Db\obj\Debug\net6.0\Db.pdb
+C:\Users\stefa\source\repos\stefanlojanicic\PisciApi\PisciApi\Db\obj\Debug\net6.0\Db.genruntimeconfig.cache
+C:\Users\stefa\source\repos\stefanlojanicic\PisciApi\PisciApi\Db\obj\Debug\net6.0\ref\Db.dll
