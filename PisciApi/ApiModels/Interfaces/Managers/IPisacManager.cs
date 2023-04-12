@@ -19,5 +19,7 @@ namespace ApiModels.Interfaces.Managers
         Task DeleteItemAsync(int id);
 
         Task CreateItemAsync(PisacDto inputModel);
+
+        Task<ResponseModel<List<PisacDto>>> GetItemsFilterSortAsync(PisciSearchModel searchModel);
     }
 }

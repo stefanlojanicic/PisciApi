@@ -43,5 +43,11 @@ namespace PisciApi.Controllers
         public async Task CreateItemAsync(PisacDto inputModel) { 
             await _pisacManager.CreateItemAsync(inputModel);
         }
+
+        [HttpPost("search-item")]
+        public async Task<ResponseModel<List<PisacDto>>> GetItemsFilterSortAsync(PisciSearchModel searchModel) {
+            var result = await _pisacManager.GetItemsFilterSortAsync(searchModel);
+            return result;
+        }
     }
 }

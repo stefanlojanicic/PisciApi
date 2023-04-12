@@ -78,6 +78,23 @@ namespace ApiManagers
             return result;
         }
 
+        public async Task<ResponseModel<List<PisacDto>>> GetItemsFilterSortAsync(PisciSearchModel searchModel)
+        {
+            var result = new ResponseModel<List<PisacDto>>();
+            try
+            {
+                result.Payload = await _pisacRepository.GetItemsFilterSortAsync(searchModel);
+            }
+            catch (Exception ex)
+            {
+                result.IsSuccess = false;
+                result.Message = ex.Message;
+                var message = JsonConvert.SerializeObject(searchModel);
+                _logger.LogError(ex, message);
+            }
+            return result;
+        }
+
         public async Task UpdateItemAsync(PisacDto updatedModel)
         {
             try

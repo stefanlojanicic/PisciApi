@@ -42,7 +42,7 @@ namespace ApiRepositories
             await _pisacContext.SaveChangesAsync();
         }
 
-        public Task<List<PisacDto>> GetItemsFilterSort(PisciSearchModel searchModel)
+        public async Task<List<PisacDto>> GetItemsFilterSortAsync(PisciSearchModel searchModel)
         {
             var query = from p in _pisacContext.Piscis
                         select new PisacDto
@@ -60,7 +60,7 @@ namespace ApiRepositories
             if (searchModel.Domaci != null) {
                 query = query.Where(x => x.Domaci == searchModel.Domaci);
             }
-            if(searchModel.FieldName == "GodinaRodjenja") { 
+            if(string.Equals(searchModel.FieldName, "GodinaRodjenja", StringComparison.OrdinalIgnoreCase)) { 
                 if (searchModel.IsAscending.HasValue) {
                     if (searchModel.IsAscending.Value)
                     {
@@ -72,7 +72,34 @@ namespace ApiRepositories
                     }
                 }
             }
-
+            else if (string.Equals(searchModel.FieldName, "Ime", StringComparison.OrdinalIgnoreCase)) {
+                if (searchModel.IsAscending.HasValue) {
+                    if (searchModel.IsAscending.Value)
+                    {
+                        query = query.OrderBy(x => x.Ime);
+                    }
+                    else 
+                    {
+                        query = query.OrderByDescending(x => x.Ime);
+                    }
+                }
+            }
+            else if (string.Equals(searchModel.FieldName, "Domaci", StringComparison.OrdinalIgnoreCase))
+            {
+                if (searchModel.IsAscending.HasValue)
+                {
+                    if (searchModel.IsAscending.Value)
+                    {
+                        query = query.OrderBy(x => x.Domaci);
+                    }
+                    else
+                    {
+                        query = query.OrderByDescending(x => x.Domaci);
+                    }
+                }
+            }
+            var result = await query.ToListAsync();
+            return result;
         }
 
         public async Task UpdateItemAsync(PisacDto updatedModel)
